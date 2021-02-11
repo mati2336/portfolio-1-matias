@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icono-page.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class=" bg-secondary bg-gradient">
+        <nav class="border-bottom  border-dark ">
+            <ul class="nav flex-column align-items-center flex-md-row justify-content-md-evenly fs-5 py-md-2 shadow-sm">
+                <li class="nav-item border-bottom ">
+                    <a class="nav-link text-white " href="#perfil">Perfil</a>
+                </li>
+                <li class="nav-item border-bottom ">
+                    <a class="nav-link text-white " href="#certificaciones">Certificaciones</a>
+                </li>
+                <li class="nav-item border-bottom">
+                    <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Primera Seccion "Perfil" -->
+    <section class="container-fluid">
+        <div class="row py-5 px-2">
+            <div class="col-12 col-md-7">
+                <img class="img-thumbnail rounded-circle shadow mx-auto d-block " src="./images/yo.webp" alt="Matias Bazan" width="250px">
+            </div>
+            <!-- Bloque Sobre Mi -->
+            <div class="col-12 col-md-5 pt-5 pt-md-0">  
+                <h2 class="fs-4 fw-bold text-center text-md-start ps-md-3" id="perfil">Sobre mi :</h2>
+                <p class=" text-center text-md-start pt-1 px-3">
+                    ¡Hola! Soy Matias Bazan Ortiz, estudiante autodidacta part time en desarrollo web, actualmente me encuentro en constante capacitacion como Front End.  
+                </p>
+                <!-- Segundo Bloque "skills" -->
+                <div class="col-12 col-md-10 rounded-3 bg-info bg-gradient border-bottom border-4 border-dark py-1 text-white ">
+                   <h2 class="fs-4 fw-bold pt-3 ps-3 "> Skills : </h2>
+                   <ul class="list-unstyled ps-3">
+                        <li class="mt-2">
+                           <img src="./images/html-5.svg" alt="html-5" width="25px">
+                           HTML
+                        </li>
+                        <li class="mt-2">
+                            <img src="./images/css-3.svg" alt="css" width="25px">
+                            CSS (Hojas de Estilo Cascada)
+                        </li>
+                        <li class="mt-2">
+                            <img src="./images/javascript.svg" alt="javascript" width="25px">
+                            Javascript
+                        </li>
+                        <li class="mt-2">
+                            <img src="./images/bootstrap.svg" alt="bootstrap" width="25px">
+                            Bootstrap
+                        </li>
+                   </ul> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-secondary bg-gradient border-bottom pb-5">
+        <!-- Seccion Certificaciones -->
+        <div class="row border-top border-2 border-dark  ">
+            <div class="col-12 col-md-6 text-center">
+                <h2 class="d-inline-block p-1 mt-4 text-white text display-4 border-bottom border-2" id="certificaciones">
+                    Certificaciones
+                </h2>
+                <ul class="list-unstyled mt-2 my-auto mb-4">
+                    <li class=" bg-white rounded-pill py-2 w-75 mx-auto mt-4 ">
+                        <img class="d-inline align-baseline  " src="./images/icono-linkedin.webp" alt="Linkedin" width="25px">
+                        <h3 class=" d-inline align-text-bottom fw-bolder ">
+                            Linkedin
+                        </h3>
+                        <p>Fundamentos del Desarrollo Web</p>
+                    </li>
+                    <li class=" bg-white rounded-pill py-2 w-75 mx-auto mt-4 ">
+                        <img class="d-inline align-baseline  " src="./images/icono-udemy.webp" alt="Udemy" width="25px">
+                        <h3 class=" d-inline align-text-bottom fw-bolder ">
+                            Udemy
+                        </h3>
+                        <p>Curso de HTML5</p>
+                    </li>
+                    <li class=" bg-white rounded-pill py-2 w-75 mx-auto mt-4 ">
+                        <img class="d-inline align-baseline  " src="./images/icono-udemy.webp" alt="Udemy" width="25px">
+                        <h3 class=" d-inline align-text-bottom fw-bolder ">
+                            Udemy
+                        </h3>
+                        <p>Curso de CSS3</p>
+                    </li>
+                    <li class=" bg-white rounded-pill py-2 w-75 mx-auto mt-4 ">
+                        <img class="d-inline align-baseline  " src="./images/icono-rocket.webp" alt="Rocket-code" width="25px">
+                        <h3 class=" d-inline align-text-bottom fw-bolder ">
+                            Rocket Code
+                        </h3>
+                        <p>Introduccion a Git-Hub & Git-Hub Pages</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <h2 class="d-inline-block p-1 mt-4 text-white text display-4 border-bottom border-2" id="proyectos">
+                    Proyectos
+                </h2>
+                <p class="fs-3 my-5 fw-bold">PROXIMAMENTE</p>
+            </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark bg-gradient">
+        <div class=" pt-5">
+            <h3 class="text-white justify-content-center fw-bold fs-2 d-flex text-decoration-underline">
+                Redes
+            </h3>
+        </div>
+        <div class="d-flex flex-row justify-content-center pb-5 ">
+            <div class="p-3 ">
+                <a href="https://www.linkedin.com/in/matias-baz%C3%A1n-ortiz-2a6358202/" target="_blank">
+                    <img class="rounded-circle border border-white border-2" src="./images/icono-linkedin.webp" alt="Linkedin" width="40px">
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="https://github.com/mati2336" target="_blank">
+                    <img class="rounded-circle border border-white border-2" src="./images/git-hub.png" alt="Git-Hub" width="40px">
+                </a>
+            </div>
+            <div class="p-3 ">
+                <a href="#">
+                    <img class="rounded-circle border border-white border-2" src="./images/twitter.png" alt="Twitter" width="40px"> 
+                </a>
+            </div>
+        </div>
+        </footer>
+        
+</body>
+</html>
